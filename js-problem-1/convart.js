@@ -17,4 +17,15 @@ function inchTofeet1(inct){
 }
 
 const feet =inchTofeet1(75);
-console.log(feet)
+// console.log(feet)
+
+
+
+
+function mileToKilomater (mile){
+    const kilo =mile * 1.60934;
+    return kilo
+}
+
+const mail =mileToKilomater(12);
+console.log(mail)

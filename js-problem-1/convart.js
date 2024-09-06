@@ -4,4 +4,17 @@ function inchToFeet(inct){
 }
 
 const tanzidHight =inchToFeet(78);
-console.log(tanzidHight);
+// console.log(tanzidHight);
+
+
+
+function inchTofeet1(inct){
+    const feetFecation =inct / 12;
+    const feetNumber =parseInt(feetFecation);
+    const feetReamaining = inct % 12;
+    const totle =feetNumber + 'ft ' + feetReamaining + 'inct ';
+    return totle;
+}
+
+const feet =inchTofeet1(75);
+console.log(feet)

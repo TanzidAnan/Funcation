@@ -4,6 +4,5 @@ const obj ={
 }
 const obj2 ={...obj};
 obj2.address ='Dhaka';
-console.log(obj2);
-const {age} =obj;
-console.log(age)
+const {age,...rest} =obj;
+console.log(rest)

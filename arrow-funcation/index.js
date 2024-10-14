@@ -1,4 +1,4 @@
-const addFast =() =>{
-    console.log(5454)
+const addFast =(x) =>{
+    console.log(x)
 }
-addFast()
+addFast(30)

@@ -17,5 +17,10 @@ console.log(person.isStudent && 'Not a Student');
 const num = [12, 65, 32, 46, 97, 46, 36, 45, 65, 44, 36, 47, 36, 74, 96, 41, 85, 11];
 
 const [x,y,...z] =num;
-console.log(x,y);
-console.log(z)
+// console.log(x,y);
+// console.log(z)
+
+const num2 =[...num];
+num2.push(56,41,65);
+console.log(num2);
+console.log(num)

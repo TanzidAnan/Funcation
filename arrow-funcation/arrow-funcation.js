@@ -1,6 +1,7 @@
 const adds =(x,y,colback) =>{
     console.log('Hello');
-    console.log(typeof colback)
+    console.log(typeof colback);
+    colback(x,y)
 };
 const time =(x,y) =>{
     console.log(x+y)

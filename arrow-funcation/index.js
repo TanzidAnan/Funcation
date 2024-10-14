@@ -24,3 +24,4 @@ const num2 =[...num];
 num2.push(56,41,65);
 console.log(num2);
 console.log(num)
+

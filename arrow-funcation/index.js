@@ -6,7 +6,10 @@ const addFast =(x) =>{
 const person ={
     name:'tanzid',
     age:20,
-    isStudent:true
+    isStudent:true,
+    address:'Dhaka'
+
 }
+console.log(person?.address ||"N/A")
 
 console.log(person.isStudent && 'Not a Student')

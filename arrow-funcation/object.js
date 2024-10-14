@@ -5,4 +5,5 @@ const obj ={
 const obj2 ={...obj};
 obj2.address ='Dhaka';
 console.log(obj2);
-console.log(obj)
+const {age} =obj;
+console.log(age)

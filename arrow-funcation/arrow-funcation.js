@@ -27,4 +27,4 @@ const person ={
     address:'Barisal',
     isTime:true
 }
-console.log(person.name)
+console.log(person['age'])

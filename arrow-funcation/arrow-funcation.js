@@ -29,4 +29,4 @@ const person ={
 }
 console.log(person['age']);
 
-console.log(`My name ${person.name},My age ${person.age}`);
+console.log(`My name ${person.name},My age ${person.age} my address ${person.address}`);

@@ -27,6 +27,9 @@ const person ={
     address:'Barisal',
     isTime:true
 }
+person.forEach(element => {
+    console.log(element)
+});
 // console.log(person['age']);
 
 console.log(`My name ${person.name}, My age ${person.age} my address ${person.address}`);

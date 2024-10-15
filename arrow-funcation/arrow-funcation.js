@@ -19,4 +19,12 @@ console.log(numbers)
 for(let i=0 ; i<numbers.length; i++){
     const number =numbers[i]*2
     // console.log(number)
+};
+
+const person ={
+    name:'Tanzid',
+    age:20,
+    address:'Barisal',
+    isTime:true
 }
+console.log(person)

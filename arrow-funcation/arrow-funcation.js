@@ -13,7 +13,8 @@ const numbers = [20, 30, 65, 96, 45, 85, 69];
 
 const number1 =[...numbers];
 number1.push(21,52,85);
-console.log(number1)
+console.log(number1);
+console.log(numbers)
 
 for(let i=0 ; i<numbers.length; i++){
     const number =numbers[i]*2

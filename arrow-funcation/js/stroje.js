@@ -1,3 +1,10 @@
 const hendleAddCard =() =>{
-    console.log(4445)
+    const inputNameEl =document.getElementById('Input-name');
+    const inputValueEl =document.getElementById('input-value');
+
+    const inputName =inputNameEl.value;
+    const inputValue =inputValueEl.value;
+
+    console.log(inputName,inputValue)
+
 }

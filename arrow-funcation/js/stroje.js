@@ -9,8 +9,8 @@ const hendleAddCard =() =>{
 
     localStorage.setItem(inputName,inputValue);
 
-    inputName.value ='';
-    inputValue.value =''
+    inputNameEl.value ='';
+    inputValueEl.value =''
 
 }
 

@@ -9,6 +9,9 @@ const hendleAddCard =() =>{
 
     localStorage.setItem(inputName,inputValue);
 
+    inputName.value ='';
+    inputValue.value =''
+
 }
 
 localStorage.setItem('tanzid',2656565)

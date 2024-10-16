@@ -10,3 +10,5 @@ const hendleAddCard =() =>{
     localStorage.setItem(inputName,inputValue);
 
 }
+
+localStorage.setItem('tanzid',2656565)
